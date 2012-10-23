@@ -22,10 +22,12 @@ public class Open implements Commande {
 	@Override
 	public void execute(String[] parametres, JPanel dessin,CurseurQuiDessine curseur) {
 		
-		//open.showOpenDialog(null); //affiche la boite de dialogue
-		if (open.showOpenDialog(null) == JFileChooser.APPROVE_OPTION){	
-			System.out.println(open.getSelectedFile().getAbsolutePath());
-		}
+		int ret = open.showDialog(null, "Open file");
+
+	    if (ret == JFileChooser.APPROVE_OPTION) {
+	      File file = open.getSelectedFile();
+	      System.out.println(file);
+	    }
 		
 	}
 
@@ -35,6 +37,12 @@ public class Open implements Commande {
 		return null;
 	}
 
+	
+	
+	
+	
+	
+	
 	
 	
 	class ExtensionFileFilter extends FileFilter {
