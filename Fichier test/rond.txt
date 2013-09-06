@@ -1,0 +1,2 @@
+CENTER
+REPEAT 180 [REPEaT 4 [move 80;turn +90];turn +2 ]

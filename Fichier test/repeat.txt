@@ -1,0 +1,2 @@
+CENTER
+REPEAT 10 [move +4; repeat 10 [move +3;turn +90]]

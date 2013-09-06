@@ -1,0 +1,41 @@
+Projet éxécuable en 1.6
+
+pour compilier il faut se placer dans le dossier src/, lancer la commande "javac -sourcepath ./ -d ../bin/ Main.java"
+éxécuter le programme à partir du fichier ../bin/Main 
+
+il faut cliquer sur le terminal
+
+Liste des commandes (args):
+
+
+BACK  				OK(sans argument)
+BACKGROUNDCOLOR		OK(red ou blue ou black ou cyan ...) ou code couleur en hexa #ffffff
+CENTER				OK le point 0;0 au centre du dessin
+CLEAR				OK
+DOWN				OK(sans argument)
+LEFT				OK(sans argument)
+MOVE				OK(x y ou distance ou -+distance)
+NEW					OK
+OPEN				OK "OPEN","OPEN NEW" "OPEN NEW path" "OPEN path"
+PENCOLOR			OK (red ou blue ou black ou cyan ...)
+PENDOWN				OK(sans argument)
+PENSIZE				OK non debugué
+GO					OK (x;y) ou clique de souris
+PENUP				OK(sans argument)
+REMEMBER			OK(sans argument)
+REPEAT				OK EX: REPEAT 10 [MOVE 100; TURN +90] fait un carré ou REPEAT 10 [MOVE +100; TURN +90] il est possible de faire des repeat imbriqués
+RIGHT				OK(sans argument)
+SAVE				OK(SANS ARGUMENT) demande confirmation et avec le path il ne demande pas de confirmer
+TURN				OK(degrée)(+-degrée)
+UP					OK(sans argument)
+/*					OK (commentaires)
+ERASE				OK (x y ou distance)
+REDO				OK
+UNDO				OK
+
+HELP				OK
+VAR					OK
+
+
+
+Plusieurs fichiers de test sont disponibles 

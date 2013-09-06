@@ -1,0 +1,6 @@
+CENTER
+PENSIZE 7 
+PENCOLOR black 
+REPEAT 18 [turn +20 ; repeat 18 [turn +20 ; move 50] ]
+PENSIZE 3 
+REPEAT 18 [turn +20 ; repeat 18 [turn +20 ; move 50;pencolor random] ]
